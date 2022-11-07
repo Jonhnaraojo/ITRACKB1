@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+   <script src="https://kit.fontawesome.com/f6ef7d75c0.js" crossorigin="anonymous"></script>
+   <title>HTML and CSS</title>
+   <link rel="stylesheet" href="Quiz.css">
+ </head>
+ <body>
+   <body class="quiz">
+    <nav class="navs">
+
+         <h1><a href="index.html">John Lloyd Araojo </a></h1>
+
+         <div class="nav-links">
+         <ul>
+            <li><a href="Stats.html">Stats</a></li>
+            <li><a href="Registration.html">Registration</a></li>
+            <li><a href="Quiz.html">Quiz App</a></li>
+         </ul>
+      </div>
+      </nav>
+
+      <form class="quiz">
+         <fieldset class="stu-info">
+            <legend>Student Info</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="e.g. John Lloyd R. Araojo" size="60"><br>
+
+            <br>
+            <label for="e-mail">E-mail:</label>
+            <input type="text" id="email" placeholder="e.g. jl7632198@gmail.com " size="60"><br>
+
+            <br>
+            <label for="course">Course:</label>
+            <input type="text" id="course" placeholder="Please input course and block" size="60"><br>
+
+            <br>
+            <label for="date">Date:</label>
+           <input type="date" input placeholder="Date" class="date">
+         </fieldset>
+
+         <fieldset class="exam">
+            <legend>Exam Proper</legend>
+            
+            <ol>
+               <li>What does HTML stand for?</li>
+               <input type="text" id="one" cols="20" rows="3"></textarea><br>
+               
+               <br>
+               <li>Who is making the Web standards?</li>
+               <input type="radio" name="level" value="Google" />Google<br>
+               <input type="radio" name="level" value="Mozilla" />Mozilla<br>
+               <input type="radio" name="level" value="Microsoft"/>Microsoft<br>
+               <input type="radio" name="level" value="The World Wide Web Consortion" />The World Wide Web Consortion<br>
+               <br>
+
+               <li>What are the three ways to insert CSS?</li>
+               <input type="checkbox" name="level" value="A. Text editor"/>Inline Css<br>
+               <input type="checkbox" name="level" value="B. Web Browse"/>internal css<br>
+               <input type="checkbox" name="level" value="Both A and B"/>external css<br>
+               <input type="checkbox" name="level" value="None of the above"/>None of the above<br>
+
+               <br>
+               <li>Create a simple HTML displaying your full name</li>
+               <input type="file" name="file"  value="file"><br>
+
+               <br>
+               <li>Discuss which is the best way to insert CSS </li>
+               <textarea rows="5" cols="50"></textarea><br/>
+            </ol>
+            <br>
+            </fieldset>
+      </form>
+      </body>
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Clear" /><br>
+
+   <br>
+   <footer>
+      <h4>Follow me on Social Media:</h4>
+      <div class="social-links">
+          <a href="https://www.facebook.com/johnlloyd.araojo.3>"
+ <i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/araojojohnlloyd"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="cr">
+    </div>
+    <div class="copy">
+      <p>Copyright JRA @2022</p>
+      </div>
+   </footer>
+  </body>
+</html>
